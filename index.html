@@ -39,8 +39,66 @@
 					
 					<div id = "akintola"></div>
 			</div>
-			<div class = "content">
-				
+			<div class = "row">
+				<button class = "col left content"onclick='lpTag.newPage("http://onlyakintola.github.io", {
+			    section: ["unit-sales","lang-english","lob-sales-english"],
+			    sdes: [{
+			    "type": "ctmrinfo",
+			    "info": {
+			        "cstatus": "cancelled",
+			        "ctype": "vip",
+			        "customerId": "138766AC",
+			        "balance": -400.99,
+			        "socialId": "11256324780",
+			        "imei": "3543546543545688",
+			        "userName": "user000",
+			        "companySize": 500,
+			        "accountName": "bank corp",
+			        "role": "broker",
+			        "lastPaymentDate": {
+			            "day": 15,
+			            "month": 10,
+			            "year": 2014
+			        },
+			        "registrationDate": {
+			            "day": 23,
+			            "month": 5,
+			            "year": 2013
+			        }
+			    }
+			}],
+			    taglets: {}
+			});'>New Page Info
+			</button>	
+			<button class = "col center content" onclick='lpTag.newPage("http://onlyakintola.github.io", {
+			    section: ["sales","lang-english","lob-sales-english"],
+			    sdes: [{
+			        "type": "cart",
+			        "total": 11.7,
+			        "numItems": 6,
+			        "products": [{
+			            "product": {
+			                "name": "prod1",
+			                "category": "category",
+			                "sku": "sku",
+			                "price": 7.8
+			            },
+			            "quantity": 1
+			        }]
+			    }],
+			    taglets: {
+			        rendererStub: {
+			            "divIdsToKeep": {
+			                "MYDIV": true
+			            }
+			        }
+			    }
+			});'>New Page Cart
+			</button>
+			<button class "col left content" onclick='lpTag.newPage("http://onlyakintola.github.io");'>
+			New Page
+			</button>
+
 			</div>
 				<footer class = "site-footer">
 				<div class = "wrap">

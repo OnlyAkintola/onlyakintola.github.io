@@ -83,6 +83,29 @@ nav {
 	height: 20px;
 }*/
 
+.row {
+	display: flex
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.col {
+	flex: 1;
+	display: flex;
+}
+
+.center {
+	display: flex;
+}
+
+.left {
+	justify-content: flex-end;
+}
+
 .main-content { 
 	color: white;
 	text-align: center;
